@@ -128,7 +128,7 @@ classifiers = [
 'License :: OSI Approved :: MIT License',
 ]
 
-setuptools.setup(name = 'mahotas',
+setuptools.setup(name = 'mahotas-nh',
       version = __version__,
       description = 'Mahotas: Computer Vision Library',
       long_description = long_description,
