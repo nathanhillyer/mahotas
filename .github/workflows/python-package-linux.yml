@@ -2,9 +2,8 @@ name: Linux Package
 
 on:
   push:
-    branches: [ master ]
-    paths:
-    - 'mahotas/mahotas_version.py'
+    tags:
+    - 'v*'
 
 jobs:
   build:

@@ -2,9 +2,8 @@ name: Windows Package (x86)
 
 on:
   push:
-    branches: [ master ]
-    paths:
-    - 'mahotas/mahotas_version.py'
+    tags:
+    - 'v*'
 
 jobs:
   build:
